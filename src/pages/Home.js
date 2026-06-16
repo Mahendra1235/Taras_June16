@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { ArrowRight, Cpu, Brain, CircuitBoard, Target, Lightbulb, Rocket, Users, Award } from "lucide-react";
+import { ArrowRight, Cpu, Brain, CircuitBoard, Target, Lightbulb, Rocket, Users, Award,Microchip } from "lucide-react";
 import HeroBackground from "../components/HeroBackground";
 import vlsiImg from "../assets/Tech-vlsi.png";
 import edgeAiImg from "../assets/Tech-genai.jpg";
@@ -99,6 +99,15 @@ function Home() {
   >
     <CircuitBoard size={28} />
   </div>
+  {/* PCB */}
+  <div
+    className="float-icon"
+    onClick={() => navigate("/pcbpage")}
+    title="PCB"
+    style={{ cursor: "pointer" }}
+  >
+    <Microchip size={28} />
+  </div>
 </div>
 
       </section>
@@ -137,7 +146,7 @@ function Home() {
         <div className="home-tech-grid">
   {technologies.map((item, index) => (
     <div
-      className="tech-card"
+      className="home-tech-card"
       key={index}
       onClick={() => navigate(item.path)}
       style={{ cursor: "pointer" }}
@@ -157,9 +166,9 @@ function Home() {
 
         <h3>{item.title}</h3>
 
-        <span className="explore-link">
+        {/* <span className="explore-link">
           Explore Now <ArrowRight size={16} />
-        </span>
+        </span> */}
       </div>
     </div>
   ))}

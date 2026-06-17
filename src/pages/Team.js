@@ -9,7 +9,7 @@ import MarimuthuProfile from '../assets/Team/Marimuthu Photo id.jpg';
 import AmudhuProfile from '../assets/Team/Amudhu Photo id.png';
 import ManimaranProfile from '../assets/Team/Manimaraprabu.jpeg';
 import GokilaProfile from '../assets/Team/Gokila Photo id.png';
-import HarshaProfile from '../assets/Team/Harsha Photo id...jpeg';
+import HarshaProfile from '../assets/Team/Harsha photo.jpeg';
 import HariKrishnaProfile from '../assets/Team/Hari Krishna S.jpg';
 
 const teamMembers = [
@@ -76,7 +76,7 @@ const teamMembers = [
     name: 'Harshavardhan',
     role: 'Manager - Business development ',
     image: HarshaProfile,
-    bio: 'With 3+ years of experience in delivering industry-aligned technical programs. He leads comprehensive training programs, hands-on workshops, and placement oriented programs.he plays a key role in preparing students for successful and sustainable professional careers.'
+    bio: 'With 3+ years of experience in business development in the semiconductor design industry, he focuses on building client relationships, identifying new business opportunities, and driving growth. He works closely with industry partners and plays a key role in expanding the companies presence and creating long-term business partnerships.'
   },
 {
     name: 'Hari Krishna S',

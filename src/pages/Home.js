@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { ArrowRight, Cpu, Brain, CircuitBoard, Target, Lightbulb, Rocket, Users, Award,Microchip } from "lucide-react";
+import { ArrowRight, Cpu, Brain, CircuitBoard, Target, Lightbulb, Rocket, Users, Award,Microchip, Wifi } from "lucide-react";
 import HeroBackground from "../components/HeroBackground";
 import vlsiImg from "../assets/Tech-vlsi.png";
 import edgeAiImg from "../assets/Tech-genai.jpg";
@@ -84,7 +84,7 @@ function Home() {
   <div
     className="float-icon"
     onClick={() => navigate("/genaipage")}
-    title="Edge AI"
+    title="Gen AI"
     style={{ cursor: "pointer" }}
   >
     <Brain size={28} />
@@ -94,10 +94,10 @@ function Home() {
   <div
     className="float-icon"
     onClick={() => navigate("/embeddediot")}
-    title="Embedded Systems"
+    title="Embedded Systems & IoT"
     style={{ cursor: "pointer" }}
   >
-    <CircuitBoard size={28} />
+    <Wifi size={28} />
   </div>
   {/* PCB */}
   <div
@@ -106,7 +106,7 @@ function Home() {
     title="PCB"
     style={{ cursor: "pointer" }}
   >
-    <Microchip size={28} />
+    <CircuitBoard size={28} />
   </div>
 </div>
 

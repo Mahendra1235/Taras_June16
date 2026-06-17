@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { ArrowRight, Cpu, Brain, CircuitBoard, Target, Lightbulb, Rocket, Users, Award,Microchip, Wifi } from "lucide-react";
+import { ArrowRight, Cpu, Brain, CircuitBoard, Target, Lightbulb, Rocket, Users, Award, Wifi } from "lucide-react";
 import HeroBackground from "../components/HeroBackground";
 import vlsiImg from "../assets/Tech-vlsi.png";
 import edgeAiImg from "../assets/Tech-genai.jpg";

@@ -24,13 +24,13 @@ import {
 // import { Navigate, useNavigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import heroImg from "../assets/VLSI_heroimg.png";
-import rtlImg from "../assets/RTL SECTION.png";
-import verificationImg from "../assets/Functional Verification.png";
-import simulationImg from "../assets/Simulation.png";
-import advancedImg from "../assets/Advnced VLSI concepts.png";
-import approachImg from "../assets/Learning Approch.png";
-import ctaImg from "../assets/Learning Approch.png";
+import heroImg from "../assets/VLSI_heroimg-1.png";
+import rtlImg from "../assets/RTL SECTION-1.png";
+import verificationImg from "../assets/Functional Verification-1.png";
+import simulationImg from "../assets/Simulation-1.png";
+import advancedImg from "../assets/Advnced VLSI concepts-1.png";
+import approachImg from "../assets/Learning Approch-1.png";
+import ctaImg from "../assets/Learning Approch-1.png";
 
 
 const focusAreas = [

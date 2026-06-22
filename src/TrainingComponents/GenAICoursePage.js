@@ -18,8 +18,8 @@ import {
   Target,
 } from "lucide-react";
 
-import heroImg from "../assets/genai-hero-exact (2).png";
-import learningImg from "../assets/training outcome.png";
+import heroImg from "../assets/genai-hero-exact (2)-1.png";
+import learningImg from "../assets/training outcome-1.png";
 
 function GenAICoursePage() {
   const navigate = useNavigate();

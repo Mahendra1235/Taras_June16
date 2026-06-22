@@ -1,5 +1,5 @@
 import React from "react";
-import IOT from "../assets/iot.jpg";
+import IOT from "../assets/products_iot.png";
 
 function IoTProductDetail({ onBack }) {
   return (

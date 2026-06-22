@@ -19,19 +19,19 @@ import {
    IMPORT YOUR IMAGES
 ========================== */
 
-import heroImg from "../assets/Embeddedhero.png";
-import embeddedImg from "../assets/Embeddedgrid.png";
-import iotImg from "../assets/IOT.png";
-import edgeImg from "../assets/SmartTechnologies.png";
+import heroImg from "../assets/Embeddedhero-1.png";
+import embeddedImg from "../assets/Embeddedgrid-1.png";
+import iotImg from "../assets/IOT-1.png";
+import edgeImg from "../assets/SmartTechnologies-1.png";
 
-import learningImg from "../assets/Learning Approch.png";
+import learningImg from "../assets/Learning Approch-1.png";
 
-import devPlatformImg from "../assets/Developement platfrm-removebg-preview.jpg";
-import mqttImg from "../assets/Connectivity&communictn-removebg-preview.jpg";
-import hardwareImg from "../assets/hardware&integrtn-removebg-preview.jpg";
+import devPlatformImg from "../assets/Developement platfrm-removebg-preview-1.png";
+import mqttImg from "../assets/Connectivity&communictn-removebg-preview-1.png";
+import hardwareImg from "../assets/hardware&integrtn-removebg-preview-1.png";
 
 // import outcomeImg from "../assets/Learning Approch.png";
-import ctaImg from "../assets/training outcome.png";
+import ctaImg from "../assets/training outcome-1.png";
 
 function EmbeddedIOTPage() {
   const navigate = useNavigate();

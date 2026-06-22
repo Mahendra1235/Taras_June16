@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import FPGA from "../assets/fpga.jpg";
-import RISCV from "../assets/riscv.jpg";
-import IOT from "../assets/iot.jpg";
+import FPGA from "../assets/fpga-1.png";
+import RISCV from "../assets/riscv-01.png";
+import IOT from "../assets/IOT-1.png";
 import FPGAProductDetail from "./FPGAProductDetail";
 import RISCVProductDetail from "./RISCVProductDetail";
 import IoTProductDetail from "./IOTProductDetail";

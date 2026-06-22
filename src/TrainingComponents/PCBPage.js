@@ -17,13 +17,9 @@ import {
   CheckCircle,
 } from "lucide-react";
 
-import heroImg from "../assets/pcb hero.png";
-
-
-import learningImg from "../assets/Learning Approch.png";
-
-
-import ctaImg from "../assets/Learning Approch.png";
+import heroImg from "../assets/pcb hero-1.png";
+import learningImg from "../assets/Learning Approch-1.png";
+import ctaImg from "../assets/Learning Approch-1.png";
 
 function PCBPage() {
   const navigate = useNavigate();

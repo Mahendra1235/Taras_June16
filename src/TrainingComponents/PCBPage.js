@@ -17,9 +17,9 @@ import {
   CheckCircle,
 } from "lucide-react";
 
-import heroImg from "../assets/pcb hero-1.png";
-import learningImg from "../assets/Learning Approch-1.png";
-import ctaImg from "../assets/Learning Approch-1.png";
+import heroImg from "../assets/pcb hero-1.webp";
+import learningImg from "../assets/Learning Approch-1.webp";
+import ctaImg from "../assets/Learning Approch-1.webp";
 
 function PCBPage() {
   const navigate = useNavigate();
@@ -188,7 +188,7 @@ function PCBPage() {
         </div>
 
         <div className="pcb-hero-right">
-          <img src={heroImg} alt="PCB Design Engineering" />
+          <img src={heroImg} alt="PCB Design Engineering" loading="lazy" />
         </div>
 
       </section>
@@ -272,7 +272,7 @@ function PCBPage() {
         </div>
 
         <div className="learning-image">
-          <img src={learningImg} alt="Learning Approach" />
+          <img src={learningImg} alt="Learning Approach" loading="lazy" />
         </div>
 
       </section>

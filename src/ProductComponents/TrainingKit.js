@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import kit1 from "../assets/Trainingkits/Kicad-7-PCB-Layout...jpg";
-import kit2 from "../assets/Trainingkits/advanced-circuit-board-stockcake.jpg";
+import kit1 from "../assets/Trainingkits/Kicad-7-PCB-Layout...webp";
+import kit2 from "../assets/Trainingkits/advanced-circuit-board-stockcake.webp";
 import kit3 from "../assets/Trainingkits/close-up-modern-circuit-board-processor_23-2151977504.avif";
-import kit4 from "../assets/Trainingkits/free-photo-of-pcb-in-hand.jpeg";
+import kit4 from "../assets/Trainingkits/free-photo-of-pcb-in-hand.webp";
 import kit5 from "../assets/Trainingkits/futuristic-circuit-board-glowing-technology-innovation-modern-design_191095-90301.avif";
-import kit6 from "../assets/Trainingkits/unnamed.jpg";
+import kit6 from "../assets/Trainingkits/unnamed.webp";
 import "../App.css";
 
 const products = [

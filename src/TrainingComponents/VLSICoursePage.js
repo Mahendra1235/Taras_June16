@@ -1,6 +1,6 @@
 import React from 'react';
-import vlsiDesignImg from '../assets/vlsi.jpg';
-import vlsiDFTImg from '../assets/vlsidft.jpg';
+import vlsiDesignImg from '../assets/vlsi.webp';
+import vlsiDFTImg from '../assets/vlsidft.webp';
 import { ArrowRight } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 

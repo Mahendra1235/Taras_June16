@@ -1,5 +1,5 @@
 import React from "react";
-import RISCV from "../assets/RISCV IP Evaluation Board-1.png";
+import RISCV from "../assets/RISCV IP Evaluation Board-1.webp";
 
 function RISCVProductDetail({ onBack }) {
   return (

@@ -24,13 +24,13 @@ import {
 // import { Navigate, useNavigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import heroImg from "../assets/VLSI_heroimg-1.png";
-import rtlImg from "../assets/RTL SECTION-1.png";
-import verificationImg from "../assets/Functional Verification-1.png";
-import simulationImg from "../assets/Simulation-1.png";
-import advancedImg from "../assets/Advnced VLSI concepts-1.png";
-import approachImg from "../assets/Learning Approch-1.png";
-import ctaImg from "../assets/Learning Approch-1.png";
+import heroImg from "../assets/VLSI_heroimg-1.webp";
+import rtlImg from "../assets/RTL SECTION-1.webp";
+import verificationImg from "../assets/Functional Verification-1.webp";
+import simulationImg from "../assets/Simulation-1.webp";
+import advancedImg from "../assets/Advnced VLSI concepts-1.webp";
+import approachImg from "../assets/Learning Approch-1.webp";
+import ctaImg from "../assets/Learning Approch-1.webp";
 
 
 const focusAreas = [
@@ -190,7 +190,7 @@ export default function VLSIPage() {
           </div>
           <div className="vlsi-hero-right">
             <div className="vlsi-hero-image-wrap">
-              <img src={heroImg} alt="Semiconductor chip" />
+              <img src={heroImg} alt="Semiconductor chip" loading="lazy" />
             </div>
           </div>
         </div>
@@ -223,7 +223,7 @@ export default function VLSIPage() {
                   </ul>
                 </div>
                 <div className="vlsi-focus-image">
-                  <img src={area.image} alt={area.imgAlt} />
+                  <img src={area.image} alt={area.imgAlt} loading="lazy" />
                 </div>
               </div>
             );
@@ -259,7 +259,7 @@ export default function VLSIPage() {
         <SectionTitle>Learning Approach</SectionTitle>
         <div className="vlsi-approach">
           <div className="vlsi-approach-image">
-            <img src={approachImg} alt="Engineer at workstation" />
+            <img src={approachImg} alt="Engineer at workstation" loading="lazy" />
           </div>
           <div className="vlsi-approach-right">
             <p className="vlsi-approach-text">

@@ -1,6 +1,6 @@
 import React from 'react';
-import FounderImage from '../assets/Founder (2).png';
-import AdvisorImage from '../assets/Advisor_new.png';
+import FounderImage from '../assets/Founder (2).webp';
+import AdvisorImage from '../assets/Advisor_new.webp';
 import {  Target, Rocket } from "lucide-react";
 
 const AboutUs = () => {

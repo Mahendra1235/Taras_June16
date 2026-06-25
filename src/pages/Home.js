@@ -1,11 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import { ArrowRight, Cpu, Brain, CircuitBoard, Target, Lightbulb, Rocket, Users, Award, Wifi } from "lucide-react";
 import HeroBackground from "../components/HeroBackground";
-import vlsiImg from "../assets/Tech-vlsi-1.png";
-import edgeAiImg from "../assets/Tech-genai-1.png";
-import embeddedImg from "../assets/Tech-embedded-1.png";
-import pcbimg from "../assets/Tech-pcb-1.png";
-// import genAiImg from "../assets/magnific__side-profile-human-silhouette-containing-networked__26541.png";
+import vlsiImg from "../assets/Tech-vlsi-1.webp";
+import edgeAiImg from "../assets/Tech-genai-1.webp";
+import embeddedImg from "../assets/Tech-embedded-1.webp";
+import pcbimg from "../assets/Tech-pcb-1.webp";
 
 
 function Home() {

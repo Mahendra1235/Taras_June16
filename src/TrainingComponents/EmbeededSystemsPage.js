@@ -1,6 +1,6 @@
 import React from 'react';
-import embeddedImg from '../assets/embeeded systems.jpg';
-import iotImg from '../assets/iot.jpg';
+import embeddedImg from '../assets/embeeded systems.webp';
+import iotImg from '../assets/iot.webp';
 import { ArrowRight } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 

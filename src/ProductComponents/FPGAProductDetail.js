@@ -1,5 +1,5 @@
 import React from "react";
-import FPGA from "../assets/Basic FPGA Evaluation Board-1.png";
+import FPGA from "../assets/Basic FPGA Evaluation Board-1.webp";
 
 function FPGAProductDetail({ onBack }) {
   return (

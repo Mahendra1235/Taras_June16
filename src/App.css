@@ -6859,7 +6859,7 @@ padding-top: 10px;
   margin-bottom: 5rem;
 
   /* Tech background image */
-  background: url('../src/assets/Bg2.jpg');
+  background: url('../src/assets/Bg2.webp');
 
   border-radius: 6px;
 }
@@ -8474,7 +8474,7 @@ padding-top: 10px;
 
 
 .project-page {
-  background: url('../src/assets/ComingSoon.png') no-repeat center center fixed;
+  background: url('../src/assets/ComingSoon.webp') no-repeat center center fixed;
   background-size: cover;
   min-height: 75vh;
   width: 100%;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Linkedin, Mail, Phone } from "lucide-react";
-import logo from "../assets/logo.png"; 
+import logo from "../assets/logo.webp"; 
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
 
         {/* Company Info */}
         <div className="footer-section footer-company">
-          <img src={logo} alt="Taras Logo" className="footer-logo" />
+          <img src={logo} alt="Taras Logo" className="footer-logo" loading="lazy" />
 
           <p className="footer-tagline">
             Delivering innovative solutions in VLSI Design, Embedded Systems,

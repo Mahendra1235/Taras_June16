@@ -1,16 +1,16 @@
 import React from 'react';
 // import MadhavanProfile from '../assets/Team/Madhavapandian Photo id.jpg';
-import VenkateshProfile from '../assets/Team/Venkatesh Photo id...jpeg';
-import DanielProfile from '../assets/Team/Daniel Photo id.jpeg';
-import ArumugamProfile from '../assets/Team/Arumugam Photo id.jpg';
-import JammalProfile from '../assets/Team/Jammal Photo id.jpeg';
-import UdhayaProfile from '../assets/Team/Udhaya Photo id.jpg';
-import MarimuthuProfile from '../assets/Team/Marimuthu Photo id.jpg';
-import AmudhuProfile from '../assets/Team/Amudhu Photo id.png';
-import ManimaranProfile from '../assets/Team/Manimaraprabu.jpeg';
-import GokilaProfile from '../assets/Team/Gokila Photo id.png';
-import HarshaProfile from '../assets/Team/Harsha photo.jpeg';
-import HariKrishnaProfile from '../assets/Team/Hari Krishna S.jpg';
+import VenkateshProfile from '../assets/Team/Venkatesh Photo id...webp';
+import DanielProfile from '../assets/Team/Daniel Photo id.webp';
+import ArumugamProfile from '../assets/Team/Arumugam Photo id.webp';
+import JammalProfile from '../assets/Team/Jammal Photo id.webp';
+import UdhayaProfile from '../assets/Team/Udhaya Photo id.webp';
+import MarimuthuProfile from '../assets/Team/Marimuthu Photo id.webp';
+import AmudhuProfile from '../assets/Team/Amudhu Photo id.webp';
+import ManimaranProfile from '../assets/Team/Manimaraprabu.webp';
+import GokilaProfile from '../assets/Team/Gokila Photo id.webp';
+import HarshaProfile from '../assets/Team/Harsha photo.webp';
+import HariKrishnaProfile from '../assets/Team/Hari Krishna S.webp';
 
 const teamMembers = [
 

@@ -19,19 +19,18 @@ import {
    IMPORT YOUR IMAGES
 ========================== */
 
-import heroImg from "../assets/Embeddedhero-1.png";
-import embeddedImg from "../assets/Embeddedgrid-1.png";
-import iotImg from "../assets/IOT-1.png";
-import edgeImg from "../assets/SmartTechnologies-1.png";
+import heroImg from "../assets/Embeddedhero-1.webp";
+import embeddedImg from "../assets/Embeddedgrid-1.webp";
+import iotImg from "../assets/IOT-1.webp";
+import edgeImg from "../assets/SmartTechnologies-1.webp";
 
-import learningImg from "../assets/Learning Approch-1.png";
+import learningImg from "../assets/Learning Approch-1.webp";
 
-import devPlatformImg from "../assets/Developement platfrm-removebg-preview-1.png";
-import mqttImg from "../assets/Connectivity&communictn-removebg-preview-1.png";
-import hardwareImg from "../assets/hardware&integrtn-removebg-preview-1.png";
+import devPlatformImg from "../assets/Developement platfrm-removebg-preview-1.webp";
+import mqttImg from "../assets/Connectivity&communictn-removebg-preview-1.webp";
+import hardwareImg from "../assets/hardware&integrtn-removebg-preview-1.webp";
 
-// import outcomeImg from "../assets/Learning Approch.png";
-import ctaImg from "../assets/training outcome-1.png";
+import ctaImg from "../assets/training outcome-1.webp";
 
 function EmbeddedIOTPage() {
   const navigate = useNavigate();
@@ -206,7 +205,7 @@ function EmbeddedIOTPage() {
                 ))}
               </ul>
 
-              <img src={item.image} alt={item.title} />
+              <img src={item.image} alt={item.title} loading="lazy" />
 
             </div>
           ))}
@@ -263,7 +262,7 @@ function EmbeddedIOTPage() {
         </div>
 
         <div className="learning-image">
-          <img src={learningImg} alt="Learning Approach" />
+          <img src={learningImg} alt="Learning Approach" loading="lazy" />
         </div>
 
       </section>
@@ -289,7 +288,7 @@ function EmbeddedIOTPage() {
               <li>Python for Embedded Applications</li>
             </ul>
 
-            <img src={devPlatformImg} alt="" />
+            <img src={devPlatformImg} alt="" loading="lazy" />
 
           </div>
 
@@ -304,7 +303,7 @@ function EmbeddedIOTPage() {
               <li>Wireless Communication Modules</li>
             </ul>
 
-            <img src={mqttImg} alt="" />
+            <img src={mqttImg} alt="" loading="lazy" />
 
           </div>
 
@@ -319,7 +318,7 @@ function EmbeddedIOTPage() {
               <li>IoT Dashboards & Monitoring Systems</li>
             </ul>
 
-            <img src={hardwareImg} alt="" />
+            <img src={hardwareImg} alt="" loading="lazy" />
 
           </div>
 

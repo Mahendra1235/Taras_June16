@@ -9,35 +9,33 @@ import MenuTabs from './MenuTab';
 import COEPage from './COEPage';
 import Projects from './Projects';
 
-import vlsi from '../assets/vlsi.jpg';
-// import embeddedsystems from '../assets/embeeded systems.jpg';
-// import aiml from '../assets/AI-ML Course Img...png';
-import genai from '../assets/genai...jpg';
-import embeddediot from '../assets/Embeddedcoursehero.png';
-import pcbimg from '../assets/Tech-pcb.jpg';
+import vlsi from '../assets/vlsi.webp';
+import genai from '../assets/genai...webp';
+import embeddediot from '../assets/Embeddedcoursehero.webp';
+import pcbimg from '../assets/Tech-pcb.webp';
 
 
-import COE from '../assets/COE1.jpg';
-import projectsImg from '../assets/ComingSoon.png';
+import COE from '../assets/COE1.webp';
+import projectsImg from '../assets/ComingSoon.webp';
 import ProductsAndOfferings from '../ProductComponents/ProductsAndOfferings';
 
 // Academic association logos
-import extraImage1 from '../assets/College logos/Lakireddy Balireddy College(LBRCE)  Logo.jpg';
-import extraImage2 from '../assets/College logos/Hindustan.jpg';
-import extraImage3 from '../assets/College logos/Knowledge.png';
-import extraImage4 from '../assets/College logos/eswari.jpg';
-import extraImage5 from '../assets/College logos/karpagam.jpg';
-import extraImage6 from '../assets/College logos/kl-university-logo.png';
-import extraImage7 from '../assets/College logos/loyola.jpg';
-import extraImage8 from '../assets/College logos/m.kumaraswamy.png';
-import extraImage9 from '../assets/College logos/panimalar.jpg';
-import extraImage10 from '../assets/College logos/psr.jpg';
-import extraImage11 from '../assets/College logos/rajalakshmi.png';
-import extraImage12 from '../assets/College logos/reva-uni.jpg';
-import extraImage13 from '../assets/College logos/sairam.jpg';
-import extraImage14 from '../assets/College logos/sri venkateswara.png';
-import extraImage15 from '../assets/College logos/srm.png';
-import extraImage16 from '../assets/College logos/veltech.jpg';
+import extraImage1 from '../assets/College logos/Lakireddy Balireddy College(LBRCE)  Logo.webp';
+import extraImage2 from '../assets/College logos/Hindustan.webp';
+import extraImage3 from '../assets/College logos/Knowledge.webp';
+import extraImage4 from '../assets/College logos/eswari.webp';
+import extraImage5 from '../assets/College logos/karpagam.webp';
+import extraImage6 from '../assets/College logos/kl-university-logo.webp';
+import extraImage7 from '../assets/College logos/loyola.webp';
+import extraImage8 from '../assets/College logos/m.kumaraswamy.webp';
+import extraImage9 from '../assets/College logos/panimalar.webp';
+import extraImage10 from '../assets/College logos/psr.webp';
+import extraImage11 from '../assets/College logos/rajalakshmi.webp';
+import extraImage12 from '../assets/College logos/reva-uni.webp';
+import extraImage13 from '../assets/College logos/sairam.webp';
+import extraImage14 from '../assets/College logos/sri venkateswara.webp';
+import extraImage15 from '../assets/College logos/srm.webp';
+import extraImage16 from '../assets/College logos/veltech.webp';
 import EmbeddedIotPage from '../TrainingComponents/EmbeddedIOTPage';
 import VLSIPage from '../TrainingComponents/VLSIPage'
 import PCBPage from '../TrainingComponents/PCBPage';

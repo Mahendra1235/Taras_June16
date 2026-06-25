@@ -1,5 +1,5 @@
 import React from 'react';
-import cloudComputingImg from '../assets/aiml.png';
+import cloudComputingImg from '../assets/aiml.webp';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 

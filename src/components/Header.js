@@ -16,6 +16,8 @@ function Header() {
             src={Logo}
             alt="Company Logo"
             className="logo"
+            width={350}
+            height={230}
             loading="eager"
             decoding="async"
             fetchPriority="high"

@@ -10,7 +10,7 @@ import COEPage from './COEPage';
 import Projects from './Projects';
 
 import vlsi from '../assets/vlsi.webp';
-import genai from '../assets/genai...webp';
+import genai from '../assets/genai-hero-exact (2)-1.webp';
 import embeddediot from '../assets/Embeddedcoursehero.webp';
 import pcbimg from '../assets/Tech-pcb.webp';
 

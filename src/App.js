@@ -1,26 +1,34 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { Suspense, lazy } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import '../src/App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import "./App.css";
+
+// Import Home normally (NOT lazy)
+import Home from "./pages/Home";
 
 // Lazy-loaded pages
-const Home = lazy(() => import('./pages/Home'));
-const AboutUs = lazy(() => import('./pages/AboutUs'));
-const ContactUs = lazy(() => import('./pages/ContactUs'));
-const SolutionsPage = lazy(() => import('./pages/SolutionsPage'));
-const Team = lazy(() => import('./pages/Team'));
-const TrainingProgram = lazy(() => import('./pages/TrainingProgram'));
-const CareerPage = lazy(() => import('./pages/CareerPage'));
+const AboutUs = lazy(() => import("./pages/AboutUs"));
+const ContactUs = lazy(() => import("./pages/ContactUs"));
+const SolutionsPage = lazy(() => import("./pages/SolutionsPage"));
+const Team = lazy(() => import("./pages/Team"));
+const TrainingProgram = lazy(() => import("./pages/TrainingProgram"));
+const CareerPage = lazy(() => import("./pages/CareerPage"));
 
-const TrainingKit = lazy(() => import('./ProductComponents/TrainingKit'));
-const ProductsAndOfferings = lazy(() => import('./ProductComponents/ProductsAndOfferings'));
+const TrainingKit = lazy(() => import("./ProductComponents/TrainingKit"));
+const ProductsAndOfferings = lazy(() =>
+  import("./ProductComponents/ProductsAndOfferings")
+);
 
-const GenAICoursePage = lazy(() => import('./TrainingComponents/GenAICoursePage'));
-const PCBPage = lazy(() => import('./TrainingComponents/PCBPage'));
-const VLSIPage = lazy(() => import('./TrainingComponents/VLSIPage'));
-const EmbeddedIOTPage = lazy(() => import('./TrainingComponents/EmbeddedIOTPage'));
+const GenAICoursePage = lazy(() =>
+  import("./TrainingComponents/GenAICoursePage")
+);
+const PCBPage = lazy(() => import("./TrainingComponents/PCBPage"));
+const VLSIPage = lazy(() => import("./TrainingComponents/VLSIPage"));
+const EmbeddedIOTPage = lazy(() =>
+  import("./TrainingComponents/EmbeddedIOTPage")
+);
 
 function App() {
   return (
@@ -42,9 +50,15 @@ function App() {
             <Route path="/contactus" element={<ContactUs />} />
             <Route path="/solutions" element={<SolutionsPage />} />
             <Route path="/team" element={<Team />} />
-            <Route path="/training-program" element={<TrainingProgram />} />
+            <Route
+              path="/training-program"
+              element={<TrainingProgram />}
+            />
             <Route path="/training-kits" element={<TrainingKit />} />
-            <Route path="/products-and-offerings" element={<ProductsAndOfferings />} />
+            <Route
+              path="/products-and-offerings"
+              element={<ProductsAndOfferings />}
+            />
 
             <Route path="/genaipage" element={<GenAICoursePage />} />
             <Route path="/pcbpage" element={<PCBPage />} />

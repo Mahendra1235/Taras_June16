@@ -10,7 +10,7 @@ import COEPage from './COEPage';
 import Projects from './Projects';
 
 import vlsi from '../assets/vlsi.webp';
-import genai from '../assets/genai-hero-exact (2)-1.webp';
+import genai from '../assets/Genai.webp';
 import embeddediot from '../assets/Embeddedcoursehero.webp';
 import pcbimg from '../assets/Tech-pcb.webp';
 
@@ -39,6 +39,20 @@ import extraImage16 from '../assets/College logos/veltech.webp';
 import EmbeddedIotPage from '../TrainingComponents/EmbeddedIOTPage';
 import VLSIPage from '../TrainingComponents/VLSIPage'
 import PCBPage from '../TrainingComponents/PCBPage';
+import extraImage17 from '../assets/College logos/Sona college.webp';
+import extraImage18 from '../assets/College logos/Dr. N.G.P. College.webp';
+import extraImage19 from '../assets/College logos/rajalakshmi.webp';
+import extraImage20 from '../assets/College logos/BANNARI.webp';
+import extraImage21 from '../assets/College logos/EGS. PILLAY.webp';
+import extraImage22 from '../assets/College logos/Chettinad.webp';
+import extraImage23 from '../assets/College logos/St.Joseph.webp';
+import extraImage24 from '../assets/College logos/Achariya.webp';
+import extraImage25 from '../assets/College logos/Manakula Vinayakar.webp';
+import extraImage26 from '../assets/College logos/ADITYA.webp';
+import extraImage27 from '../assets/College logos/NPR.webp';
+import extraImage28 from '../assets/College logos/Dhanalakshmi college.webp';
+import extraImage29 from '../assets/College logos/KSR.webp';
+
 
 const extraImages = [
   { src: extraImage1, alt: 'LBRCE' },
@@ -56,6 +70,19 @@ const extraImages = [
   { src: extraImage13, alt: 'Sairam' },
   { src: extraImage14, alt: 'Sri Venkateswara' },
   { src: extraImage15, alt: 'SRM' },
+  { src: extraImage17, alt: 'Sona' },
+  { src: extraImage18, alt: 'Dr.n.g.p' },
+  { src: extraImage19, alt: 'rajalakshmi' },
+  { src: extraImage20, alt: 'bannari' },
+  { src: extraImage21, alt: 'EGS.Pillay' },
+  { src: extraImage22, alt: 'Chettinad' },
+  { src: extraImage23, alt: 'St.joseph' },
+  { src: extraImage24, alt: 'Achariya' },
+  { src: extraImage25, alt: 'Manakula Vinayakar' },
+  { src: extraImage26, alt: 'Aditya' },
+  { src: extraImage27, alt: 'NPR' },
+  { src: extraImage28, alt: 'Dhanalakshmi' },
+  { src: extraImage29, alt: 'KSR' },
   { src: extraImage16, alt: 'Veltech' },
 ];
 
@@ -231,9 +258,9 @@ function SolutionsPage() {
                   src={img.src}
                   alt={img.alt}
                   className="about-extra-image"
-                  loading="lazy"
+                  width="200"
+                  height="120"
                   decoding="async"
-                  fetchPriority="low"
                 />
               ))}
 
@@ -244,9 +271,9 @@ function SolutionsPage() {
                   src={img.src}
                   alt={img.alt}
                   className="about-extra-image"
-                  loading="lazy"
+                  width="200"
+                  height="120"
                   decoding="async"
-                  fetchPriority="low"
                 />
               ))}
             </div>

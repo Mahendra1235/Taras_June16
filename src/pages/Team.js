@@ -1,7 +1,7 @@
 import React from 'react';
 // import MadhavanProfile from '../assets/Team/Madhavapandian Photo id.jpg';
 import VenkateshProfile from '../assets/Team/Venkatesh Photo id...webp';
-import DanielProfile from '../assets/Team/Daniel Photo id.webp';
+// import DanielProfile from '../assets/Team/Daniel Photo id.webp';
 import ArumugamProfile from '../assets/Team/Arumugam Photo id.webp';
 import JammalProfile from '../assets/Team/Jammal Photo id.webp';
 import UdhayaProfile from '../assets/Team/Udhaya Photo id.webp';
@@ -47,12 +47,12 @@ const teamMembers = [
     bio: 'AI & ML Engineer with 5+ years of experience in computer vision, deep learning, and edge AI deployment, specializing in building and mentoring intelligent systems using Python, TensorFlow, and OpenCV.'
   },
 
-  {
-    name: 'Jes Evans Daniel J',
-    role: 'Design Engineer - VLSI',
-    image: DanielProfile,
-    bio: 'With 3+ years of experience in Digital Electronics, Verilog HDL, SystemVerilog (SV), and UVM, he has strong expertise in RTL design and verification methodologies, including simulation and testbench development. He has also trained and mentored 1000+ students in digital design and VLSI verification, helping them build industry-ready skills.'
-  },
+  // {
+  //   name: 'Jes Evans Daniel J',
+  //   role: 'Design Engineer - VLSI',
+  //   image: DanielProfile,
+  //   bio: 'With 3+ years of experience in Digital Electronics, Verilog HDL, SystemVerilog (SV), and UVM, he has strong expertise in RTL design and verification methodologies, including simulation and testbench development. He has also trained and mentored 1000+ students in digital design and VLSI verification, helping them build industry-ready skills.'
+  // },
 
 {
     name: 'Syed Jamalulla Basha',

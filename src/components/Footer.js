@@ -70,7 +70,7 @@ function Footer() {
 
           <div className="footer-contact-item">
             <Phone size={18} />
-            <span>+91 81228 27960</span>
+            <span>+91 78455 50414</span>
           </div>
 
           <div className="footer-contact-item">

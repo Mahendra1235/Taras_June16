@@ -84,6 +84,7 @@ import extraImage58 from '../assets/College logos/Sri Eshwar College of Engineer
 import extraImage59 from '../assets/College logos/Sri Ramakrishna Institute of Technology.png';
 import extraImage60 from '../assets/College logos/SRM ESHWAR Engineering College.jpg';
 import extraImage61 from '../assets/College logos/Stella Marrys College of Engineering and Technology.png';
+import extraImage62 from '../assets/College logos/Aditya Institute of Technology and Management-AP.png';
 
 
 const extraImages = [
@@ -148,6 +149,7 @@ const extraImages = [
   { src: extraImage59, alt: 'Sri Ramakrishna Institute of Technology' },
   { src: extraImage60, alt: 'SRM ESHWAR Engineering College' },
   { src: extraImage61, alt: 'Stella Marrys College of Engineering and Technology' },
+  { src: extraImage62, alt: 'Aditya Institute of Technology and Management' },
 ];
 
 const data = {

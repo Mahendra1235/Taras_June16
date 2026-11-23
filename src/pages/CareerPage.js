@@ -119,7 +119,7 @@ const CareerPage = () => {
 
 
             <p><strong>Manimaraprabu K</strong></p>
-            <p><strong>[Manager - Corporate Relations]
+            <p><strong>Manager - Corporate Relations
 </strong></p>
             <p>Phn 📞: 81228 27960</p>
             <p>Email ✉️: manimaraprabu.kandasamy@tarassolutions.com</p>

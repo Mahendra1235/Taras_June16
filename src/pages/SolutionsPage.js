@@ -44,7 +44,7 @@ import extraImage18 from '../assets/College logos/Dr. N.G.P. College.webp';
 import extraImage19 from '../assets/College logos/rajalakshmi.webp';
 import extraImage20 from '../assets/College logos/BANNARI.webp';
 import extraImage21 from '../assets/College logos/EGS. PILLAY.webp';
-import extraImage22 from '../assets/College logos/Chettinad.webp';
+import extraImage22 from '../assets/College logos/Chettinad.jpg';
 import extraImage23 from '../assets/College logos/St.Joseph.webp';
 import extraImage24 from '../assets/College logos/Achariya.webp';
 import extraImage25 from '../assets/College logos/Manakula Vinayakar.webp';
@@ -52,6 +52,38 @@ import extraImage26 from '../assets/College logos/ADITYA.webp';
 import extraImage27 from '../assets/College logos/NPR.webp';
 import extraImage28 from '../assets/College logos/Dhanalakshmi college.webp';
 import extraImage29 from '../assets/College logos/KSR.webp';
+import extraImage30 from '../assets/College logos/Adhi-autonomous.png';
+import extraImage31 from '../assets/College logos/Akshaya College.jpeg';
+import extraImage32 from "../assets/College logos/ANIT's.png";
+import extraImage33 from '../assets/College logos/ARASU college.png';
+import extraImage34 from '../assets/College logos/AVS College of Technology.png';
+import extraImage35 from '../assets/College logos/AVS_Engineering_College.png';
+import extraImage36 from '../assets/College logos/Builders Engineering College-Kangeyam.png';
+import extraImage37 from '../assets/College logos/Dhaanish Ahmed College.webp';
+import extraImage38 from '../assets/College logos/Dr.Mahalingam college.png';
+import extraImage39 from '../assets/College logos/Dr. Sivanthi Aditanar College of Engineering.png';
+import extraImage40 from '../assets/College logos/Excel College of Engineering and Technology.png';
+import extraImage41 from '../assets/College logos/Federal Institute of Science & Technology.png';
+import extraImage42 from '../assets/College logos/Gnanamani College of Technology.png';
+import extraImage43 from '../assets/College logos/Hindusthan Institute of Technology.jpg';
+import extraImage44 from '../assets/College logos/Jawaharlal College of Engineering and Technology.png';
+import extraImage45 from '../assets/College logos/JCT College of Engineering and Technology.webp';
+import extraImage46 from '../assets/College logos/K.Ramakrishnan College.png';
+import extraImage47 from '../assets/College logos/Karunya University.png';
+import extraImage48 from '../assets/College logos/KCG College of Technology.png';
+import extraImage49 from '../assets/College logos/Kongunadu College of Engineering and Technology.png';
+import extraImage50 from '../assets/College logos/KSR Institute of Technology.png';
+import extraImage51 from '../assets/College logos/Kumaraguru College of Technology.png';
+import extraImage52 from '../assets/College logos/Mahendra Engineering College.png';
+import extraImage53 from '../assets/College logos/Mar Ephraem College of Engineering & Technology.png';
+import extraImage54 from '../assets/College logos/Muthayammal College of Engineering and Technology.webp';
+import extraImage55 from '../assets/College logos/Nanda College of Engineering.png';
+import extraImage56 from '../assets/College logos/New Prince Shri Bhavani College of Engineering.webp';
+import extraImage57 from '../assets/College logos/PSNA College of Engineering and Technology.png';
+import extraImage58 from '../assets/College logos/Sri Eshwar College of Engineering.webp';
+import extraImage59 from '../assets/College logos/Sri Ramakrishna Institute of Technology.png';
+import extraImage60 from '../assets/College logos/SRM ESHWAR Engineering College.jpg';
+import extraImage61 from '../assets/College logos/Stella Marrys College of Engineering and Technology.png';
 
 
 const extraImages = [
@@ -84,6 +116,38 @@ const extraImages = [
   { src: extraImage28, alt: 'Dhanalakshmi' },
   { src: extraImage29, alt: 'KSR' },
   { src: extraImage16, alt: 'Veltech' },
+  { src: extraImage30, alt: 'Adhi College of Engineering' },
+  { src: extraImage31, alt: 'Akshaya College of Engineering and Technology' },
+  { src: extraImage32, alt: 'Anil Neerukonda Institute of Technology & Sciences' },
+  { src: extraImage33, alt: 'Arasu Engineering College' },
+  { src: extraImage34, alt: 'AVS College of Technology' },
+  { src: extraImage35, alt: 'AVS Engineering College' },
+  { src: extraImage36, alt: 'Builders Engineering College' },
+  { src: extraImage37, alt: 'Dhaanish Ahmed College of Engineering' },
+  { src: extraImage38, alt: 'Dr. Mahalingam College of Engineering and Technology' },
+  { src: extraImage39, alt: 'Dr. Sivanthi Aditanar College of Engineering' },
+  { src: extraImage40, alt: 'Excel College of Engineering and Technology' },
+  { src: extraImage41, alt: 'Federal Institute of Science & Technology' },
+  { src: extraImage42, alt: 'Gnanamani College of Technology' },
+  { src: extraImage43, alt: 'Hindusthan Institute of Technology' },
+  { src: extraImage44, alt: 'Jawaharlal College of Engineering and Technology' },
+  { src: extraImage45, alt: 'JCT College of Engineering and Technology' },
+  { src: extraImage46, alt: 'K. Ramakrishnan College of Engineering' },
+  { src: extraImage47, alt: 'Karunya University' },
+  { src: extraImage48, alt: 'KCG College of Technology' },
+  { src: extraImage49, alt: 'Kongunadu College of Engineering and Technology' },
+  { src: extraImage50, alt: 'KSR Institute of Technology' },
+  { src: extraImage51, alt: 'Kumaraguru College of Technology' },
+  { src: extraImage52, alt: 'Mahendra Engineering College' },
+  { src: extraImage53, alt: 'Mar Ephraem College of Engineering & Technology' },
+  { src: extraImage54, alt: 'Muthayammal College of Engineering and Technology' },
+  { src: extraImage55, alt: 'Nanda College of Engineering' },
+  { src: extraImage56, alt: 'New Prince Shri Bhavani College of Engineering' },
+  { src: extraImage57, alt: 'PSNA College of Engineering and Technology' },
+  { src: extraImage58, alt: 'Sri Eshwar College of Engineering' },
+  { src: extraImage59, alt: 'Sri Ramakrishna Institute of Technology' },
+  { src: extraImage60, alt: 'SRM ESHWAR Engineering College' },
+  { src: extraImage61, alt: 'Stella Marrys College of Engineering and Technology' },
 ];
 
 const data = {
@@ -218,7 +282,7 @@ function SolutionsPage() {
         </div>
       )} */}
       {activeTab !== 'products' && (
-  <div className="course-grid">
+  <div className={`course-grid ${activeTab === 'coe' ? 'course-grid-coe' : ''}`}>
     {currentCourses.map(({ key, title, description, image }) => (
       <div
         key={key}

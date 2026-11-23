@@ -10,6 +10,10 @@ import {
   Mail
 } from 'lucide-react';
 
+import mouLogo1 from '../assets/College logos/MoU Signed Colleges/Dhanalakshmi Srinivasan.jpg';
+import mouLogo2 from '../assets/College logos/MoU Signed Colleges/Nehru College of Engineering & Research Centre.png';
+import mouLogo3 from '../assets/College logos/MoU Signed Colleges/Sri Ramakrishna Institute of Technology.png';
+
 function COEPage() {
   return (
     <div className="coe-page">
@@ -28,7 +32,7 @@ function COEPage() {
 
         <div className="coe-cards">
           <div className="coe-card">
-            <Cpu size={32} />
+            <Cpu size={48} />
             <h4>VLSI Research Lab</h4>
             <p>
               Industry-aligned RTL-to-GDSII design flow, SoC architecture,
@@ -37,7 +41,7 @@ function COEPage() {
           </div>
 
           <div className="coe-card">
-            <Brain size={32} />
+            <Brain size={48} />
             <h4>AI / ML Innovation Hub</h4>
             <p>
               Model development, deep learning, MLOps pipelines, and
@@ -46,7 +50,7 @@ function COEPage() {
           </div>
 
           <div className="coe-card">
-            <Microchip size={32} />
+            <Microchip size={48} />
             <h4>Embedded & IoT Lab</h4>
             <p>
               Microcontroller programming, real-time operating systems,
@@ -78,6 +82,39 @@ function COEPage() {
           <div className="offering-item">
             <Rocket size={20} />
             <span>Startup Incubation & Innovation Support</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="coe-section">
+        <h3>MoU-Signed Institutions</h3>
+
+        <div className="coe-mou-grid">
+          <div className="coe-mou-card">
+            <img
+              src={mouLogo1}
+              alt="Dhanalakshmi Srinivasan"
+              className="coe-mou-logo"
+              decoding="async"
+            />
+          </div>
+
+          <div className="coe-mou-card">
+            <img
+              src={mouLogo2}
+              alt="Nehru College of Engineering & Research Centre"
+              className="coe-mou-logo"
+              decoding="async"
+            />
+          </div>
+
+          <div className="coe-mou-card">
+            <img
+              src={mouLogo3}
+              alt="Sri Ramakrishna Institute of Technology"
+              className="coe-mou-logo"
+              decoding="async"
+            />
           </div>
         </div>
       </section>

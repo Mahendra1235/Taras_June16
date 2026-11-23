@@ -21,7 +21,7 @@ function Footer() {
 
           <div className="footer-social">
             <a
-              href="https://www.linkedin.com/in/taras-systems-and-solutions-17252740a/"
+              href="https://www.linkedin.com/company/taras-systems-and-solutions"
               target="_blank"
               rel="noopener noreferrer"
             >

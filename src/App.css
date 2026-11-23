@@ -4943,6 +4943,7 @@ text-align: left;
 .vlsi-hero-right {
   position: relative;
   height: 100%;
+  width: 850px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -4957,14 +4958,13 @@ text-align: left;
 } */
 .vlsi-hero-image-wrap {
   /* width: 100%; */
-  max-width: 880px;
+  max-width: 960px;
   height: 600px;
   overflow: hidden;
   border-radius: 22px;
-  background: #07142f;
+  background: #00aeef;
   box-shadow: 0 28px 70px -24px rgba(0, 0, 0, 0.45);
-  clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 100%,);
-  border-left: 10px solid #00aeef;
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%);
 }
 
 .vlsi-hero-image-wrap img {
@@ -4972,6 +4972,7 @@ text-align: left;
   height: 100%;
   object-fit:cover;
   display: block;
+  clip-path: polygon(9% 0, 100% 0, 100% 100%, 9% 100%, 1.2% 50%);
 }
 
 
@@ -6536,6 +6537,14 @@ padding-top: 10px;
   justify-content: center;
 }
 
+.course-grid-coe {
+  --coe-card-width: 420px;
+}
+
+.course-grid-coe .course-card {
+  width: var(--coe-card-width);
+}
+
 .course-card {
   width: 340px;
   height: 60vh;
@@ -6644,6 +6653,10 @@ padding-top: 10px;
 
   }
 
+  .course-grid-coe {
+    --coe-card-width: 380px;
+  }
+
   .course-card {
     width: 320px;
     height: auto;
@@ -6683,6 +6696,11 @@ padding-top: 10px;
     align-items: center;
     gap: 20px;
   }
+
+  .course-grid-coe {
+    --coe-card-width: 100%;
+  }
+
   .media-page {
     padding: 30px 20px;
   }
@@ -6770,6 +6788,10 @@ padding-top: 10px;
     align-items: center;
     gap: 16px;
     margin-bottom: 10px;
+  }
+
+  .course-grid-coe {
+    --coe-card-width: 90vw;
   }
 
   .course-card {
@@ -6924,7 +6946,7 @@ padding-top: 10px;
   display: flex;
   align-items: center;
   gap: 3rem;
-  animation: scrollLeft 40s linear infinite;
+  animation: scrollLeft 90s linear infinite;
   width: max-content;
   will-change: transform;
 }
@@ -7444,6 +7466,36 @@ padding-top: 10px;
   transform: translateX(6px);
 }
 
+/* MoU SIGNED INSTITUTIONS */
+.coe-mou-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.coe-mou-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: linear-gradient(180deg, #f9fbff, #f3f6fb);
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.coe-mou-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+  border-color: #bfdbfe;
+}
+
+.coe-mou-logo {
+  width: 100%;
+  height: 80px;
+  object-fit: contain;
+}
+
 /* CONTACT / CTA */
 .coe-contact {
   margin-top: 50px;
@@ -7499,6 +7551,10 @@ padding-top: 10px;
 
   .coe-card {
     padding: 22px;
+  }
+
+  .coe-mou-card {
+    padding: 14px;
   }
 }
 
